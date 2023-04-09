@@ -53,7 +53,6 @@ export default function Home() {
       validationSchema: loginShema,
       onSubmit,
     });
-    
 
   return (
     <div className="bg-[#18a49d] h-[100vh] lg:pt-[10rem] md:pt-[8rem] pt-[7rem]">
