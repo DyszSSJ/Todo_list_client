@@ -8,7 +8,7 @@ import {
 import { ToastContainer } from "react-toastify";
 
 const client = new ApolloClient({
-  uri: "http://localhost:4000/",
+  uri: "https://todo-list-server-sandy-tau.vercel.app/",
   cache: new InMemoryCache(),
 });
 
